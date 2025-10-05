@@ -11,6 +11,7 @@
 
 <body>
   <div id="fundo"></div>
+  <h1>bem vindo</h1>
 
   <img src="assets/logotipo.png" alt="Logo Casa de Vó">
 
@@ -31,3 +32,8 @@
 </body>
 
 </html>
+
+<script type="module">
+  import { irParaMenu } from './iniciar.js';
+  document.getElementById('btnIniciar')?.addEventListener('click', irParaMenu);
+</script>
