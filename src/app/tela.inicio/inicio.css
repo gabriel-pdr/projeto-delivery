@@ -1,0 +1,103 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2021/10/08/07/13/autumn-6690466_1280.jpg);
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegação {
+  background: rgba(207, 207, 207, 0);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  max-width: 430px;
+  height: 50%;
+}
+
+/* Estilizando o input */
+.input-cont {
+  position: absolute;
+  width: 80%;
+  margin-top: 15px;
+  align-items: center;
+  justify-items: center;
+  left: 10%;
+  top: 20%;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  border-radius: 2px;
+}
+label,
+h1 {
+  color: white;
+}
+
+input:focus {
+  border-bottom: 4px solid rgb(255, 145, 0);
+  border-radius: 3px;
+}
+.input-senha {
+  position: absolute;
+  width: 80%;
+  margin-top: 15px;
+  align-items: center;
+  justify-items: center;
+  left: 10%;
+  top: 46%;
+}
+.senha {
+  position: relative;
+  left: 97px;
+}
+.conectar {
+  display: block;
+  position: fixed;
+  top: 70%;
+  left: 20%;
+  padding: 13px 100px;
+  border-radius: 10px;
+  background: linear-gradient(to left, rgb(255, 115, 0), #fdba00, #ffa807);
+  color: white;
+  border: none;
+}
+
+span {
+  position: absolute;
+}
+
+span {
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  bottom: 84px;
+  right: 48%;
+}
+label,
+.email {
+  color: #ffffff;
+  -webkit-text-stroke: 0, 5px black;
+}
+.ou {
+  display: flex;
+  justify-content: center; /* Centraliza na horizontal */
+  align-items: center; /* (Opcional) Centraliza na vertical */
+  height: 9vh; /* (Opcional) Ocupa altura da tela inteira */
+}
