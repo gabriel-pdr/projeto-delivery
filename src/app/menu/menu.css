@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.icons .material-icons {
+  font-size: 28px;
+  color: #ccc;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Linha divisória */
+.divider {
+  height: 2px;
+  background-color: #888;
+  width: 100%;
+}
+
+/* Texto "Nenhum prato adicionado" */
+.empty-text {
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Botão de adicionar */
+.add-button {
+  background-color: transparent;
+  border: 1px solid #888;
+  color: #d4af7f;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin: 2rem;
+}
+
+.add-button .plus {
+  font-weight: bold;
+  font-size: 2rem;
+}
