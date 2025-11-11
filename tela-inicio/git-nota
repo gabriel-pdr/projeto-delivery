@@ -1,0 +1,16 @@
+## 📤 Enviando alterações locais para o GitHub
+
+Sempre que fizer alterações no projeto e quiser enviar para o GitHub, siga estes passos:
+
+```bash
+# 1. Verifique quais arquivos foram alterados
+git status
+
+# 2. Adicione os arquivos modificados ao staging
+git add .
+
+# 3. Faça o commit das alterações com uma mensagem clara
+git commit -m "Descrição do que foi alterado"
+
+# 4. Envie os commits para o GitHub (branch main)
+git push origin main
