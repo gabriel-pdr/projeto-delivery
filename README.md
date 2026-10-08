@@ -1,32 +1,36 @@
-<<<<<<< HEAD
-# DishApp
+🚀 Horizon — Plataforma de Cursos Online
+O Horizon é uma plataforma web inovadora voltada para a democratização e diversidade de cursos online. O projeto foi desenvolvido com foco em proporcionar uma experiência de aprendizado dinâmica, acessível e completa para todos os usuários.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+🛠️ Tecnologias Utilizadas
+O front-end da aplicação foi construído utilizando tecnologias modernas de mercado:
 
-## Development server
+React — Biblioteca principal para a construção dos componentes e interface de usuário.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+JavaScript (ES6+) — Linguagem base para a lógica da aplicação e interatividade.
 
-## Code scaffolding
+HTML5 & CSS3 — Estruturação e estilização responsiva das páginas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+✨ Funcionalidades Principais
+Variedade de Cursos: Um catálogo diversificado com aulas focadas em diferentes áreas de conhecimento.
 
-## Build
+Aulas em Vídeo: Conteúdo em vídeo ministrado diretamente por professores da própria plataforma.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Sistema de Atividades: Exercícios práticos e avaliativos baseados no conteúdo das aulas anteriores para fixação do aprendizado.
 
-## Running unit tests
+Interface Intuitiva: Design limpo e responsivo para facilitar a navegação dos estudantes.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+💻 Como Rodar o Projeto Localmente
+Se você quiser clonar e executar o projeto na sua máquina, siga os passos abaixo:
 
-## Running end-to-end tests
+Bash
+# Clone este repositório
+git clone https://github.com/SEU-USUARIO/horizon.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Entre na pasta do projeto
+cd horizon
 
-## Further help
+# Instale as dependências
+npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# projeto-delivery
-projeto de faculdade
->>>>>>> 0f6e7d5c66bc23850e1792cebfd1cf0563485390
+# Inicie o projeto em modo de desenvolvimento
+npm start
