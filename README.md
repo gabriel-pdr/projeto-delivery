@@ -1,36 +1,59 @@
-🚀 Horizon — Plataforma de Cursos Online
-O Horizon é uma plataforma web inovadora voltada para a democratização e diversidade de cursos online. O projeto foi desenvolvido com foco em proporcionar uma experiência de aprendizado dinâmica, acessível e completa para todos os usuários.
+# 🎓 Horizon: Plataforma de Cursos Online
 
-🛠️ Tecnologias Utilizadas
-O front-end da aplicação foi construído utilizando tecnologias modernas de mercado:
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-React — Biblioteca principal para a construção dos componentes e interface de usuário.
+**Horizon** é uma plataforma de cursos online focada em **diversidade de conteúdo**, desenvolvida em **React** e **JavaScript**. O projeto oferece uma experiência de aprendizado fluida e responsiva, com aulas em vídeo ministradas por professores da própria plataforma e atividades que reforçam o que foi visto nas aulas anteriores.
 
-JavaScript (ES6+) — Linguagem base para a lógica da aplicação e interatividade.
+---
 
-HTML5 & CSS3 — Estruturação e estilização responsiva das páginas.
+## 🎯 Funcionalidades
 
-✨ Funcionalidades Principais
-Variedade de Cursos: Um catálogo diversificado com aulas focadas em diferentes áreas de conhecimento.
+* **📚 Catálogo de Cursos:** Variedade de cursos em diferentes áreas, para todos os interesses e níveis.
+* **🎥 Aulas em Vídeo:** Conteúdo gravado por professores da plataforma, com acompanhamento do progresso.
+* **📝 Atividades Baseadas em Aulas Anteriores:** Exercícios liberados conforme o aluno avança, reforçando o conteúdo já estudado.
+* **🏆 Quiz e Certificado:** Avaliação ao final do curso com emissão de certificado de conclusão.
+* **👤 Perfil do Aluno:** Painel com o andamento dos cursos e estatísticas de conclusão.
 
-Aulas em Vídeo: Conteúdo em vídeo ministrado diretamente por professores da própria plataforma.
+---
 
-Sistema de Atividades: Exercícios práticos e avaliativos baseados no conteúdo das aulas anteriores para fixação do aprendizado.
+## 🛠️ Tecnologias Utilizadas
 
-Interface Intuitiva: Design limpo e responsivo para facilitar a navegação dos estudantes.
+* **React:** Componentização e interfaces dinâmicas.
+* **JavaScript (ES6+):** Lógica da aplicação e interatividade.
+* **CSS:** Estilização responsiva para diferentes tamanhos de tela.
+* **React Router:** Navegação entre as páginas da plataforma.
 
-💻 Como Rodar o Projeto Localmente
-Se você quiser clonar e executar o projeto na sua máquina, siga os passos abaixo:
+---
 
-Bash
-# Clone este repositório
-git clone https://github.com/SEU-USUARIO/horizon.git
+## 🚀 Como Iniciar a Aplicação
 
-# Entre na pasta do projeto
+### 1. Pré-requisitos
+Certifique-se de ter instalado:
+* **Node.js** (LTS recomendado)
+* **npm** ou **yarn**
+
+### 2. Instalação e Execução
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/horizon.git
+
+# 2. Acesse a pasta do projeto
 cd horizon
 
-# Instale as dependências
+# 3. Instale as dependências
 npm install
 
-# Inicie o projeto em modo de desenvolvimento
+# 4. Inicie o servidor de desenvolvimento
 npm start
+```
+
+A aplicação ficará disponível em `http://localhost:3000`.
+
+---
+
+## 📌 Sobre a Horizon
+
+A **Horizon** nasceu com a proposta de ampliar horizontes através do conhecimento, reunindo cursos variados em um só lugar, com ensino direto e prático.
